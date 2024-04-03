@@ -16,7 +16,7 @@
 
 }
 html {
-    font-size: 62.5%;
+    font-size: 55%;
     overflow-x: hidden;
 }
 
@@ -127,7 +127,7 @@ span {
     
 }
 .pdf-file {
-    margin-left: auto; /* Push the button to the right */
+    margin-left: auto; 
     display: inline-block;
     margin-right: 10px;
   }
@@ -154,7 +154,7 @@ span {
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--main-color); /*change button backgroun color*/
+    background: var(--main-color); 
     border-radius: 4rem;
     font-size: 1.6rem;
     color: black;
@@ -358,7 +358,7 @@ span {
 }
 .project-box:hover{
     background: white;
-    color: var(--main-color);
+    color: var(--second-bg-color); /*color*/
     transform: scale(1.03);
 }
 .project-box .project-info{
@@ -485,7 +485,7 @@ span {
         padding: 2rem 3%;
     }
 }
-@media(max-width:895px){
+@media (max-width:895px){
     #menu-icon{
         display: block;
     }
@@ -541,7 +541,7 @@ span {
     .project h2{
         margin-bottom: 3rem;
     }
-    .projects-container{
+    .projects-container {
         grid-template-columns: repeat(1.1fr);
     }
 }
