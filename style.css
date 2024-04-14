@@ -278,10 +278,19 @@ span {
 .skills {
     background-color: var(--bg-color);
     color: white;
+    padding: 5rem 2rem;
 }
 .skills h2{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     color: white;
+}
+.skills ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .skills li{
     display: inline-flex;
@@ -290,18 +299,37 @@ span {
     background: transparent;
     width: 4.5rem;
     height: 4.5rem;
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--main-color);
-    margin: 3rem 22rem 3rem 0;
+    margin: 1rem 22rem 3rem 0;
     transition: 0.3s ease-in-out; /*change time*/
+}
+.skills li:hover{
+    color: white;
+    transform: scale(1.2) translateY(-5px);
 }
 .tools{
     background-color: var(--bg-color);
     color: white;
+    padding: 5rem 2rem; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
 }
 .tools h2{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem; 
     color: white;
+    width: 100%; 
+    text-align: center; 
+}
+.tools ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
 .tools li{
     display: inline-flex;
@@ -310,9 +338,9 @@ span {
     background: transparent;
     width: 4.5rem;
     height: 4.5rem;
-    font-size: 5rem;
+    font-size: 3rem; 
     color: var(--main-color);
-    margin: 3rem 20rem 3rem 0;
+    margin: 1rem 22rem 1.5rem; 
     transition: 0.3s ease-in-out;
 }
 .tools li:hover{
