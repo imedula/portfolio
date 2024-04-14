@@ -284,6 +284,14 @@ span {
     margin-bottom: 5rem;
     color: white;
 }
+.skills ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .skills li{
     display: inline-flex;
     justify-content: center;
@@ -299,10 +307,25 @@ span {
 .tools{
     background-color: var(--bg-color);
     color: white;
+    padding: 5rem 2rem; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
 }
 .tools h2{
     margin-bottom: 5rem;
     color: white;
+     width: 100%; 
+    text-align: center; 
+}
+.tools ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
 .tools li{
     display: inline-flex;
