@@ -278,6 +278,7 @@ span {
 .skills {
     background-color: var(--bg-color);
     color: white;
+    justify-content: center;
 }
 .skills h2{
     margin-bottom: 5rem;
