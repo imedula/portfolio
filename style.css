@@ -290,9 +290,9 @@ span {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
 }
-.skills li{
+.skills li {
     display: inline-flex;
     justify-content: center;
     align-items: center;
