@@ -279,6 +279,7 @@ span {
     background-color: var(--bg-color);
     color: white;
     padding: 3rem 8rem;
+    justify-content: center;
 }
 .skills h2{
     margin-bottom: 3rem;
@@ -293,6 +294,9 @@ span {
     justify-content: center; 
 }
 .skills li {
+    justify-content: center;
+}
+.skills li{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -330,6 +334,7 @@ span {
     margin-bottom: 3rem; 
     color: white;
     width: 100%; 
+     width: 100%; 
     text-align: center; 
 }
 .tools ul {
@@ -339,6 +344,7 @@ span {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
+    justify-content: center; 
 }
 .tools li{
     display: inline-flex;
