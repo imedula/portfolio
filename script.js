@@ -51,7 +51,7 @@ function myFunction() {
 }
 
 function downloadPDF() {
-  var pdfUrl = 'cv444.pdf';
+  var pdfUrl = 'CvDocument.pdf';
   
   var a = document.createElement('a');
   a.href = pdfUrl;
