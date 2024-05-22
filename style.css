@@ -398,6 +398,7 @@ span {
     display: grid;
     grid-template-columns: repeat(3.1fr);
     align-items: center;
+    place-items: center;
     gap: 2.5rem;
 }
 .project-box{
@@ -416,7 +417,7 @@ span {
 .project-box .project-info{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     max-height: 200px;
     justify-content: center;
     align-items: baseline;
