@@ -405,6 +405,7 @@ span {
     background-color: var(--main-color);
     color: black;
     height: 250px;
+    width: 1050px;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -520,7 +521,7 @@ span {
     }
     .projects-container{
         padding-bottom: 5rem;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 2fr;
         margin: 0 5rem;
     }
 }
@@ -536,7 +537,7 @@ span {
         padding: 2rem 3% 2rem;
     }
     .projects{
-        padding-bottom: 6rem;
+        padding-bottom: 2rem;
     }
     .footer{
         padding: 2rem 3%;
@@ -599,9 +600,10 @@ span {
         margin-bottom: 3rem;
     }
     .projects-container {
-        grid-template-columns: repeat(1.1fr);
+        grid-template-columns: 2fr;
     }
 }
+
 .button {
     position: relative;
     overflow: hidden;
