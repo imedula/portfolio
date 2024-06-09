@@ -143,7 +143,7 @@ span {
     border-radius: 50%;
     color: var(--main-color);
     margin: 3rem 5rem 3rem 0;
-    transition: 0.3s ease-in-out; /*change time*/
+    transition: 0.3s ease-in-out;
 }
 .social-icon a:hover{
     color: white;
@@ -311,8 +311,8 @@ span {
 .skills ul li{
     width: 200px;
     height: 50px;
-    border: 1px solid purple; /* Border for the box */
-    padding: 10px;          /* Padding for spacing inside the box */
+    border: 1px solid purple; 
+    padding: 10px;          
     margin-bottom: 50px;    /* Space between boxes */
     background-color: dark; 
     border-radius: 5px; 
@@ -365,11 +365,11 @@ span {
 .tools ul li {
     width: 200px;
     height: 50px;
-    border: 1px solid purple; /* Border for the box */
-    padding: 10px;          /* Padding for spacing inside the box */
-    margin-bottom: 10px;    /* Space between boxes */
-    background-color: dark; /* Light background color */
-    border-radius: 5px;     /* Rounded corners for a softer look */
+    border: 1px solid purple; 
+    padding: 10px;    
+    margin-bottom: 10px;    
+    background-color: dark; 
+    border-radius: 5px;     
 }
 
 .skills li:hover{
@@ -399,7 +399,7 @@ span {
     grid-template-columns: repeat(3.1fr);
     align-items: center;
     place-items: center;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 .project-box{
     background-color: var(--main-color);
@@ -436,11 +436,12 @@ span {
     max-height: 50px;
     margin: auto;
 }
-.project-info img{
+.project-info img
+{
     margin-top: 35px;
     max-width: 250px;
     display: block;
-    transition: transform 1.0s ease; /* Add smooth transition */
+    transition: transform 1.0s ease; 
 }
 .image-container{
     flex: 0 0 auto;
@@ -543,11 +544,12 @@ span {
         padding: 2rem 3%;
     }
 }
-@media (max-width:895px){
+@media (max-width:895px)
+{
     #menu-icon{
         display: block;
     }
-    .navbar{
+    .navbar {
         position: absolute;
         top: 100%;
         right: 0;
@@ -604,7 +606,8 @@ span {
     }
 }
 
-.button {
+.button
+ {
     position: relative;
     overflow: hidden;
     height: 4rem;
@@ -617,16 +620,19 @@ span {
     cursor: pointer;
   }
   
-  .button:hover::before {
+  .button:hover::before
+   {
     transform: scaleX(1);
   }
   
-  .button-content {
+  .button-content
+   {
     position: relative;
     z-index: 1;
   }
   
-  .button::before {
+  .button::before 
+  {
     content: "";
     position: absolute;
     top: 0;
