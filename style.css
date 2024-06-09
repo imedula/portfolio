@@ -390,7 +390,7 @@ span {
     background: var(--bg-color);
     color: white;
 }
-.project h2{
+.projects h2{
     margin-bottom: 5rem;
     color: white;
  }
@@ -598,7 +598,7 @@ span {
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
-    .project h2{
+    .projects h2{
         margin-bottom: 3rem;
     }
     .projects-container {
