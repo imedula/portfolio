@@ -56,7 +56,7 @@ function downloadPDF() {
   
   var a = document.createElement('a');
   a.href = pdfUrl;
-  a.download = 'downloaded-file.pdf';
+  a.download = 'IuriMedulashviliCv.pdf';
   
   document.body.appendChild(a);
   a.click();
