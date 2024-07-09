@@ -449,8 +449,8 @@ span {
 .text-container{
     flex: 1;
     padding-left: 25px;
+    line-height: 1;
 }
-
 .project-info img.zoomed {
     transform: scale(2.0); /* Increase the scale to zoom the image */
 }
@@ -560,7 +560,7 @@ span {
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
-        display:block;
+        display: block;
     }
     
     .navbar .active{
