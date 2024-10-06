@@ -49,7 +49,7 @@ function myFunction() {
 }
 
 function downloadPDF() {
-  var pdfUrl = 'CvDocument.pdf';
+  var pdfUrl = 'Resume D.pdf';
   
   var a = document.createElement('a');
   a.href = pdfUrl;

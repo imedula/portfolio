@@ -18,12 +18,13 @@
             <i class='bx bx-menu' id="menu-icon"></i>
 
             <nav class="navbar">
-                    <a href="#home" class="active"><i class='bx bx-home-alt'></i> Home</a>
-                    <a href="#about"><i class='bx bx-user'></i> About</a>
-                    <a href="#skills"><i class='bx bx-code-alt'></i> Skill</a>
-                    <a href="#projects"><i class='bx bx-menu-alt-right'></i> Project</a>
-                    <a href="#contact"><i class='bx bx-mail-send'></i> Contact</a>
+                <a href="#home" class="active"><i class='bx bx-home-alt'></i> Home</a>
+                <a href="#about"><i class='bx bx-user'></i> About</a>
+                <a href="#skills"><i class='bx bx-code-alt'></i> Skill</a>
+                <a href="#projects"><i class='bx bx-menu-alt-right'></i> Project</a>
+                <a href="#contact"><i class='bx bx-mail-send'></i> Contact</a>
             </nav>
+            
     </header>
 
     <section class="home" id="home">
@@ -41,6 +42,11 @@
                 <a href="https://github.com/imedula" target="_blank"><i class='bx bxl-github'></i></a>
                 <a href="https://www.instagram.com/i_medulashvili?igsh=MTN5a2tqOXA3cG1ucw%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram'></i></a>
             </div>
+            <div class="pdf-file"></div>
+                <button onclick="downloadPDF()" class="button">
+                    <span class="button-content">Download PDF</span>
+                </button>
+            </div>
         </div>
         
     </section>
@@ -52,7 +58,7 @@
                 <span></span>
             </h3>
             <p id="about-text">
-                I have a solid foundation in front-end development, including HTML, CSS, and JavaScript frameworks like React. In addition to these, I've worked with Material UI and Bootstarp for building responsive and dynamic UIs. I also have experience in backend technologies like Express and MongoDB.<span id="dots">..</span><span id="more">
+                I have a solid foundation in front-end development, including HTML, CSS, and JavaScript frameworks like React. In addition to these, I've worked with Material UI and Bootstarp for building responsive and dynamic UIs. I also have experience in backend technologies like Express and MongoDB.<span id="dots">..</span><span id="more"><br>
                 Currentliy i'm a Frontend developer, my background in the financial sector, particularly in dealing with problematic assets and litigation, can be valuable in the IT industry, especially as IT technology is increasingly being applied in finance and asset management. This experience may provide insights into regulatory compliance, risk management, and the legal aspects of  applications, which are essential considerations in many projects.My knowledge of JavaScript is also advantageous, as it's a commonly used language in development.
                 Additionally, my background in medicine, while not directly related to IT, demonstrates my ability to learn complex subjects and problem-solve, which are valuable skills in any field.</span>
                 </p>
@@ -99,9 +105,7 @@
                 <div class="project-info">
                     <div class="image-container">
                       <img src="./images/Screenshot 2024-09-20 at 19.04.34.png" onclick="zoomImage(this)">
-                      
                     </div>
-
                     <div class="text-container">  
                         <h4>Online Food Ordering System</h4>
                     <p>The Online Food Ordering System is a full-stack web application designed to facilitate the ordering and delivery of food from local restaurants. The platform allows users to browse available food items, add items to a cart, proceed to checkout, and make payments securely. It is designed to offer a seamless and intuitive experience for both users and restaurant owners...</p></div>
