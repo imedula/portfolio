@@ -570,12 +570,15 @@ span {
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
-        display: inline-flex;
+        display: block;
         gap: 3rem;
     }
     .navbar .active{
         display: block;
         
+    }
+    .navbar {
+        display: none;
     }
     .navbar a{
         display: block;
