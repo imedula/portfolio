@@ -574,7 +574,7 @@ span {
         gap: 3rem;
     }
     .navbar .active{
-        display: block;
+        display: none;
         
     }
     .navbar {
