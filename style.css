@@ -544,8 +544,10 @@ span {
     header{
         padding: 2rem 3%;
     }
-    section{
+    .section{
         padding: 2rem 3% 2rem;
+        width: 300px;
+        height: 300px;
     }
     .projects{
         padding-bottom: 2rem;
