@@ -575,7 +575,6 @@ span {
     }
     .navbar .active{
         display: none;
-        
     }
     .navbar {
         display: none;
@@ -588,22 +587,23 @@ span {
     }
     .home{
         flex-direction: column;
-        margin: 5rem 4rem;
+        margin: 4rem 3rem;
         padding: 20px;
     }
     .home-content h3{
-        font-size: 2.6rem;
+        font-size: 1.6rem;
     }
     .home-content h1{
-        font-size: 8rem;
-        margin-top: 3rem;
+        font-size: 6rem;
+        margin-top: 2rem;
     }
     .home-content p{
-        max-width: 600px;
+        max-width: 500px;
         margin: 0 auto;
     }
     .home-img img{
-        width: 56vw;
+        height: 300px;
+        width: 300px;
         margin-top: -2rem;
     }
     .about {
@@ -613,15 +613,17 @@ span {
         margin: 0 2rem 4rem;
     }
     .about img{
-        width: 52vw;
+        width: 42vw;
         margin-top: 1rem;
         margin-bottom: 3rem;
+        height: 300px;
+        width: 300px;
     }
     .projects h2{
-        margin-bottom: 3rem;
+        margin-bottom: 1.5rem;
     }
     .projects-container {
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
     }
 }
 

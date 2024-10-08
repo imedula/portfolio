@@ -25,7 +25,6 @@ menuIcon.onclick = () => {
       menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
-    
 
 function myFunction() {
     var dots = document.getElementById("dots");
