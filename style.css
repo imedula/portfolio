@@ -119,14 +119,14 @@ span {
     height: 400px;
     width: 400px;
     border-radius: 100%;
-    box-shadow: 0 10px 25px var(--text-color);
+    box-shadow: 0 10px 25px var(--aqua-color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
     
 }
 .home-img img:hover{
-    box-shadow: 0 0 50px var(--text-color),
-    0 0 100px var(--text-color)
+    box-shadow: 0 0 50px var(--main-color),
+    0 0 100px var(--main-color)
 }
 .home-content p{
     font-size: 1.9rem;
@@ -542,6 +542,9 @@ span {
         flex-direction: column;
         width: 300px;
         height: 300px;
+    }
+    .about {
+        flex-direction: column-reverse;
     }
     header{
         padding: 2rem 3%;
